@@ -14,9 +14,11 @@ for j in range (numElementB):
 print("Número de elementos de A es: ",len(conjuntoA))
 print("Número de elementos de B es: ",len(conjuntoB))
 
+#Imprime los conjuntos con todos los elementos agregados
 print("conjuntoA= ", conjuntoA)
 print("conjuntoB= ", conjuntoB)
 
+#Diferencia simétrica
 print("Diferencia simétrica")
 diferencia_simetrica= conjuntoA.symmetric_difference(conjuntoB)
 print("A ⊕ B = ", diferencia_simetrica)
